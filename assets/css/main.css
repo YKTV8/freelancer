@@ -115,8 +115,8 @@ a {
   color: #000000;
   text-decoration: none; }
   a:hover {
-    border-bottom-color: #f56a6a;
-    color: #f56a6a !important; }
+    border-bottom-color: #000000;
+    color: #ffffff !important; }
     a:hover strong {
       color: inherit; }
 
@@ -998,7 +998,7 @@ header p {
   text-transform: uppercase; }
 
 header.major > :last-child {
-  border-bottom: solid 3px #f56a6a;
+  border-bottom: solid 3px #000000;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0; }
@@ -1145,7 +1145,7 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #f56a6a;
+    border-color: #000000;
     box-shadow: 0 0 0 1px #f56a6a; }
 
 input[type="checkbox"] + label:before {
@@ -1421,12 +1421,12 @@ ul.pagination {
       padding: 0 0.5em;
       text-align: center; }
       ul.pagination li > .page.active {
-        background-color: #f56a6a;
+        background-color: #ffffff;
         color: #ffffff !important; }
         ul.pagination li > .page.active:hover {
-          background-color: #f67878; }
+          background-color: #ffffff; }
         ul.pagination li > .page.active:active {
-          background-color: #f45c5c; }
+          background-color: #ffffff; }
     ul.pagination li:first-child {
       padding-right: 0.75em; }
     ul.pagination li:last-child {
@@ -1553,7 +1553,7 @@ button,
   input[type="button"].primary,
   button.primary,
   .button.primary {
-    background-color: #f56a6a;
+    background-color: #333131;
     box-shadow: none;
     color: #ffffff !important; }
     input[type="submit"].primary:hover,
@@ -1561,13 +1561,13 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #f67878; }
+      background-color: #702020; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     button.primary:active,
     .button.primary:active {
-      background-color: #f45c5c; }
+      background-color: #ffffff; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -2075,7 +2075,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #f56a6a;
+  border-bottom: solid 5px #fffefe;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
@@ -2214,7 +2214,7 @@ button,
     font-size: 0.9em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
-      color: #f56a6a; }
+      color: #333131; }
     #menu ul a.opener, #menu ul span.opener {
       -moz-transition: color 0.2s ease-in-out;
       -webkit-transition: color 0.2s ease-in-out;
